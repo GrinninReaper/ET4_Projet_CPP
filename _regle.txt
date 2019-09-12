@@ -1,0 +1,69 @@
+Welcome newbie!
+Let me teach you. This is a great game made by a great guy inspired by another great game. Let's continue in French because this is going to be given a grade.
+
+	BUT DU JEU
+L’aire de jeu est une ligne de 12 cases numérotées de 1 à 12. 
+Sur les cases extrêmes (1 et 12) se trouvent les bases de chacun des joueurs. 
+Le but de chaque joueur est de détruire la base adverse. 
+Pour cela, chaque joueur peut créer une fois par tour (à la fin du tour) sur la case de sa base une unité. 
+L’unité pourra ensuite avancer, attaquer d’autres unités ou la base adverse.
+
+	LES UNITES
+Il existe 4 types d’unités :
+• les fantassins, unités de combat rapproché
+• les archers, unités d’attaque à distance
+• les catapultes, unités d’attaque de zone à distance
+• les super-soldats, unités de combat rapproché qui ne peuvent être recrutés directement
+
+			CARAC DES UNITES
+
+La portée définit quelles sont les cases sur lesquelles peut attaquer l’unité. 
+Par exemple, un soldat du joueur B situé sur la case 5 ne peut attaquer qu’une unité ennemie sur la case 4.
+L’archer peut attaquer une case parmi les 3 cases qui se présentent devant lui. Il attaquera forcément l’unité ennemie qui est la plus proche de lui.
+La catapulte tire sur deux cases à la fois y compris si une unité alliée s’y trouve (cette unité prendra alors des dégats). 
+Comme l’archer, elle tirera en priorité de façon à toucher la cible la plus proche.
+
+Chaque unité a à sa disposition jusqu’à 3 actions précises qui dépendent uniquement de son type. 
+Un fantassin et un archer ne peuvent attaquer qu’une seule fois par tour. 
+Une catapulte ne peut effectuer qu’une seule action par tour (soit attaquer soit avancer d’une case).
+
+
+		CARAC DES ACTIONS
+
+Il ne peut y avoir qu’une seule unité par case ; une unité ne peut donc avancer que si la case devant elle est libre. Le fonctionnement du jeu impose donc que les unités ennemies se trouvent entre ses propres unités et la base adverse. 
+Si une unité occupe la case de la base adverse, elle doit être détruite avant de pouvoir attaquer la base elle-même.
+Une unité ne peut se déplacer que jusqu’à la case adjacente à la base adverse : case 11 pour les unités du joueur A et 2 pour les unités du joueur B.
+
+Chaque tour de jeu se déroule de la façon suivante :
+1. Chaque joueur reçoit 8 pièces d’or.
+2. Tour de jeu du joueur A
+	(a) Phase de résolution des actions 1 des unités du joueur A
+	(b) Phase de résolution des actions 2 des unités du joueur A
+	(c) Phase de résolution des actions 3 des unités du joueur A
+	(d) Création éventuelle d’une nouvelle unité du joueur A
+3. Tour de jeu du joueur B
+	(a) Phase de résolution des actions 1 des unités du joueur B
+	(b) Phase de résolution des actions 2 des unités du joueur B
+	(c) Phase de résolution des actions 3 des unités du joueur B
+	(d) Création éventuelle d’une nouvelle unité du joueur B
+
+L’ordre dans lequel les unités effectuent leur action dépend de la phase :
+	• Lors de la phase de résolution des actions 1, l’unité la plus proche de la base du joueur courant tente d’effectuer son action en premier, puis la deuxième unité la plus proche et ainsi de suite jusqu’à l’unité la plus lointaine de la base du joueur.
+	• Lors des phases de résolution des actions 2 et 3, l’unité la plus lointaine de la base du joueur courant tente d’effectuer son action en premier, puis la deuxième unité la plus lointaine et ainsi de suite jusqu’à l’unité la plus proche de la base du joueur.
+
+A chaque étape, si l’unité a la possibilité de faire son action, elle l’effectue obligatoirement.
+A la fin de son tour de jeu, le joueur a la possibilité de recruter une unité sur la case de sa base s’il possède assez de pièces d’or (le coût de recrutement est alors retranché de ce qu’il possède) et si la case de sa base est libre.
+
+	COMBATS
+Lorsqu’une unité qui a a points d’attaque engage le combat contre une unité qui a p points de vie, cette dernière est blessée et il lui reste à l’issue de l’attaque p − a points de vie. Il en va de même lors de l’attaque de la base adverse.
+Lorsque le nombre de points de vie d’une unité est inférieur ou égal à zéro, elle disparaît et la case qu’elle occupait devient vide. Le joueur dont l’unité a remporté le combat reçoit de l’or supplémentaire équivalent à la moitié du prix de l’unité défaite (5 pour un fantassin ou un super-soldat, 6 pour un archer et 10 pour une catapulte).
+De plus, en cas de combat mortel entre deux fantassins, le fantassin victorieux se transforme en super-soldat immédiatement, tout en conservant ses caractéristiques courantes (en particulier le nombre de points de vie.). Si l’attaque constituait son action 1, il pourra attaquer une deuxième fois dans le tour.
+
+	FIN DU JEU
+Le jeu se termine si l’une des deux conditions suivantes est remplie :
+	• une des bases est détruite : le joueur dont la base est détruite a perdu ;
+	• un certain nombre de tours (par exemple 100) a été joué par chaque joueur : il n’y a pas
+de vainqueur.
+
+Done reading! Get out there and beat some people.
+

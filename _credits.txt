@@ -1,0 +1,10 @@
+CREDITS
+
+Programme écrit par A** C*****.
+
+Basé sur le sujet du projet de C++ mis au point par Evangelos BAMPAS et Joël GAY.
+
+Merci à tous ceux qui m'ont aidé pour ce projet et à tous ceux que j'ai énervés toutes mes nuits blanches à taper sur mon clavier comme un effréné.
+
+Citations tirées du roman "Frankenstein; or, The Modern Prometheus" de Mary Shelley et du film "The Bride of Frankenstein" de James Whale.
+
